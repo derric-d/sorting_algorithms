@@ -26,7 +26,7 @@ void bubble_sort(int *array, size_t size)
 	uint j = 0;
 	char f = 1;
 
-	if (!array || size == 1)
+	if (!array || size < 2)
 		return;
 
 	for (i = 0; i < size - 1 && f; i++)

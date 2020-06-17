@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - swap two ints
+ * swap_int - swap two ints
  * @n1: 1st int
  * @n2: 2nd int
  */

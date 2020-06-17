@@ -18,7 +18,7 @@ void swap_node(listint_t *n1, listint_t *n2)
 	n2->next = n1;
 }
 /**
- * inssertion_sort_list - insertion sort implementation for linked lists
+ * insertion_sort_list - insertion sort implementation for linked lists
  * @list: list passed
  */
 void insertion_sort_list(listint_t **list)
